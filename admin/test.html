@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.css" />
+<script src="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.js"></script>
+
+<body>
+
+    <div id="tui-image-editor"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.js"></script>
+    <script>
+        const ImageEditor = require('tui-image-editor');
+        const instance = new ImageEditor(document.querySelector('#tui-image-editor'), {
+            cssMaxWidth: 700,
+            cssMaxHeight: 500,
+            selectionStyle: {
+                cornerSize: 20,
+                rotatingPointOffset: 70,
+            },
+        });
+    </script>
+    <script src="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.js"></script>
+</body>
